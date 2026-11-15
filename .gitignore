@@ -1,0 +1,31 @@
+# IDE and Python cache
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Training data, model weights, and generated outputs
+dataset/
+models/
+output/
+outputs/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
